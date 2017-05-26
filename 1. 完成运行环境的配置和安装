@@ -1,0 +1,5 @@
+下载-安装之后回到桌面
+右键我的电脑--属性--高级系统设置--高级--环境变量
+在系统变量一栏新建JAVA_HOME 变量值写 你安装文件的路径像这样   H:\java\jdk1.8.0_77   
+再找到PATH 双击进入 新建   %JAVA_HOME%\jre\bin   再新建 %JAVA_HOME%\bin 新建完成点确定
+在找到CLassPath如果没有新建一个 ，变量值填  .;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar; （不要忘记前面有“.;”否则出错）
